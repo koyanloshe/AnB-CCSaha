@@ -98,6 +98,10 @@ h1.padl{
 .mobile-hide{
 	display:none;
 }
+.btn-wire{
+	margin:10px 0px;
+	border:2px solid #f44;
+}
 }
 
 @media (min-width: 769px) and (max-width: 2560px) {
@@ -521,6 +525,20 @@ iframe{
 
 a:hover{
 	text-decoration:none; 
+}
+.btn-wire{
+	border:2px solid #f44;
+	padding:10px 25px;
+}
+.btn-wire>a{
+	color:#f44;
+}
+.btn-wire:hover{
+	background-color:#f44;
+	color:#fff;
+}
+.btn-wire:hover>a{
+	color:#fff;
 }
 
 /*#hearing{
