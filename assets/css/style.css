@@ -540,6 +540,9 @@ a:hover{
 .btn-wire:hover>a{
 	color:#fff;
 }
+.pad0{
+	padding: 0px;
+}
 
 /*#hearing{
 	margin-left: 30px;
